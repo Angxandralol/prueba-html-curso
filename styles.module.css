@@ -14,10 +14,17 @@ main{
     align-items: center;
     color: white;
 }
+.coleccion{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
 .myImage{
     width: 200px;
     height: 200px;
-    border: 2em solid;
+    border: 1.2em solid;
     border-color: rgb(22, 21, 21);
     border-radius: 20px;
 }
